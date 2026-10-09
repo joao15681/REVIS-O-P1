@@ -22,7 +22,7 @@ class Supermercado {
     }
 
     public void listarProdutos() {
-        System.out.println("\n--- Lista de Produtos ---");
+        System.out.println("\nLista de Produtos");
         for (int i = 0; i < quantidadeAtual; i++) {
             double valorDesconto = precos[i] * (descontos[i] / 100.0);
             double precoFinal = precos[i] - valorDesconto;
